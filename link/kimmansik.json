@@ -1,0 +1,8 @@
+{
+  "name": "김만식 포인트",
+  "description": "관리자가 기록하는 포인트 — 닉네임 양식 변수 {PT} = 포인트 구간 단계 번호",
+  "client_id": "앱 ID 로 바꾸기",
+  "permissions": "402656256",
+  "guilds": ["김만식 서버 ID 로 바꾸기"],
+  "variables": { "PT": "포인트 구간" }
+}

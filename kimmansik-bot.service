@@ -1,0 +1,17 @@
+[Unit]
+Description=김만식 포인트 기록 Discord 봇 (커미션·호스팅)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=mnt
+Group=mnt
+WorkingDirectory=/home/mnt/DBot/커미션/호스팅포함/김만식
+ExecStart=/usr/bin/node src/index.js
+Restart=always
+RestartSec=5
+SyslogIdentifier=kimmansik-bot
+
+[Install]
+WantedBy=multi-user.target

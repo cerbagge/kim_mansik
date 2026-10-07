@@ -1,0 +1,17 @@
+{
+  "name": "kimmansik-point-bot",
+  "version": "1.0.0",
+  "description": "관리자가 기록하는 포인트 + 구간별 역할·별명·알림 디스코드 봇 (김만식 커미션)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test --test-concurrency=1 test/*.test.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  },
+  "license": "CC-BY-NC-4.0",
+  "author": "MNT"
+}
